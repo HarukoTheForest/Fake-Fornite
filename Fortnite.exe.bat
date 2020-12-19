@@ -24,6 +24,7 @@ goto End
 
 :lock
 set /A k=%k%+1
+set k=0
 if %k%==1 cls
 if %k%==1 echo.
 if %k%==1 echo.
